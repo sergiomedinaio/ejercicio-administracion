@@ -1,5 +1,5 @@
-const int EchoPin = 5;
-const int TriggerPin = 6;
+const int EchoPin = 13;
+const int TriggerPin = 14;
 int ledPin = 8; // choose the pin for the LED
 
 
