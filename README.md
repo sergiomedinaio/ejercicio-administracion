@@ -1,2 +1,5 @@
 # ejercicio-administracion
- Ejercicio de administracion de proyectos
+ Bastón para personas con visión reducida. 
+
+ El objetivo es desarrollar un dispositivo capaz de asistir a personas con visión reducida empleando un sistema embebido, como es Arduino.
+
