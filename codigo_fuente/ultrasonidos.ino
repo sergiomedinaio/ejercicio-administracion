@@ -1,3 +1,8 @@
+const int EchoPin = 5;
+const int TriggerPin = 6;
+int ledPin = 8; // choose the pin for the LED
+
+
 int ping(int TriggerPin, int EchoPin) {
     long duration, distanceCm;
 
@@ -21,5 +26,15 @@ void setup() {
     pinMode(ledPin, OUTPUT);  // declare LED as output
 }
 void loop() {
+    int cm = ping(TriggerPin, EchoPin);
+    Serial.print("Distancia: ");
+    Serial.println(cm);
+    if (cm<=20) {         // check if the input is HIGH (button released)
+        digitalWrite(ledPin, HIGH);  // turn LED OFF
+    } else {
+        digitalWrite(ledPin, LOW);  // turn LED ON
+
+    }
+    delay(1000);
 
 }
