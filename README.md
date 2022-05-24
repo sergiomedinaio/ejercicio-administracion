@@ -3,6 +3,8 @@
 
  El objetivo es desarrollar un dispositivo capaz de asistir a personas con visión reducida empleando un sistema embebido, como es Arduino.
 
+ ![Imagen descriptiva](./imagen_descriptiva.jpg)
+
 # Integrantes
 
 - Integrante 1
