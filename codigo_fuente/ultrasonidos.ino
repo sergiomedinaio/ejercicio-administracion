@@ -14,8 +14,8 @@ int ping(int TriggerPin, int EchoPin) {
 
     duration = pulseIn(EchoPin, HIGH);  //medimos el tiempo entre pulsos, en microsegundos
 
-    distanceCm = 10* duration * 10 / 292/ 2;   //convertimos a distancia, en mm
-    return distanceCm;
+    distanceMm = 10* duration * 10 / 292/ 2;   //convertimos a distancia, en mm
+    return distanceMm;
 
 }
 
