@@ -26,10 +26,10 @@ void setup() {
     pinMode(ledPin, OUTPUT);  // declare LED as output
 }
 void loop() {
-    int cm = ping(TriggerPin, EchoPin);
+    int mm = ping(TriggerPin, EchoPin);
     Serial.print("Distancia: ");
-    Serial.println(cm);
-    if (cm<=20) {         // check if the input is HIGH (button released)
+    Serial.println(mm);
+    if (mm<=20) {         // check if the input is HIGH (button released)
         digitalWrite(ledPin, HIGH);  // turn LED OFF
     } else {
         digitalWrite(ledPin, LOW);  // turn LED ON
